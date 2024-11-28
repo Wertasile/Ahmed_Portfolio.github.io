@@ -3,6 +3,7 @@
 import React, { useState } from 'react'
 import "../styles/globals.css";
 import { IconMenu2 } from '@tabler/icons-react';
+import Link from 'next/link';
 
 const Uppermenu = () => {
 
@@ -14,12 +15,12 @@ const Uppermenu = () => {
   return (
     <>
     <div className="flex p-5 g-5 justify-between h-18 font-inter">
-        <div className=''>FIRST APP </div>
+        <div className=''>Ahmed Portfolio </div>
         <div className='hidden sm:flex sm:justify-between md:w-2/3 lg:w-1/3'>
-          <div>HOME</div>
-          <div>ABOUT ME</div>
-          <div>PROJECTS</div>
-          <div>CONTACT</div>
+          <Link href="/">HOME</Link>
+          <Link href="#about">ABOUT ME</Link>
+          <Link href="#projects">PROJECTS</Link>
+          <Link href="">CONTACT</Link>
         </div>
         <div className='sm:hidden'>
           <IconMenu2 stroke={2} onClick={openModal}/>
