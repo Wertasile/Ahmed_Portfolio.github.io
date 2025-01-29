@@ -12,6 +12,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      boxShadow: {
+        '3xl': '0px 0px 0px 0px rgba(13, 255, 0, 0.7)',
+      },
       animation: {
         first: "moveVertical 30s ease infinite",
         second: "moveInCircle 20s reverse infinite",
@@ -57,6 +60,7 @@ module.exports = {
       fontFamily: {
         satoshi: ['Satoshi', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
+        doto: ['Doto', 'sans-serif'],
       },
       colors: {
         'primary-orange': '#FF5722',
