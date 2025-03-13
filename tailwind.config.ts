@@ -1,3 +1,5 @@
+import { Josefin_Sans } from "next/font/google";
+
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
@@ -61,6 +63,7 @@ module.exports = {
         satoshi: ['Satoshi', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
         doto: ['Doto', 'sans-serif'],
+        Josefin_Sans: ["var(--font-josefin-sans)"],
       },
       colors: {
         'primary-orange': '#FF5722',

@@ -124,12 +124,12 @@ const About = () => {
       ];
 
   return (
-    <div className="flex flex-col items-center sm:px-20 md:px-32 p-5">
+    <div className="flex flex-col items-center sm:px-20 md:px-32 p-5 gap-10">
         <div className=''>
             <div className="text-5xl font-doto p-5">
             ABOUT
             </div>
-            <div>
+            <div className='text-3xl'>
             My name is Ahmed, and I currently work as an IT Support Analyst 
             where I provide hardware and software solutions to my customers. 
             However, as a Computer Engineering Graduate my passion
@@ -139,7 +139,7 @@ const About = () => {
         </div>
         
 
-        <div className="items-center p-5" id="about">
+        {/* <div className="items-center p-5" id="about">
             
             <BentoGrid className="max-w-4xl p-5 mx-auto">
             {items.map((item, i) => (
@@ -153,6 +153,74 @@ const About = () => {
                 />
             ))}
             </BentoGrid>
+        </div> */}
+        <div className="text-5xl font-doto p-5">
+            SKILLS
+        </div>
+
+        <div className="grid grid-cols-11 justify-items-center gap-x-6 gap-y-6">
+
+
+        <div className='skill opacity-0'></div>
+          <div className='skill skill-left '><img src='/assets/icons/devtools/docker.png' style={{height:40}}/></div>
+          <div className='skill skill-left'><img src='/assets/icons/devtools/aws.png' style={{height:40}}/></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill skill-middle'><img src='/assets/icons/languages/java.png' style={{height:40}}/></div>
+          <div className='skill skill-middle'><img src='/assets/icons/languages/c-sharp.png' style={{height:40}}/></div>
+          <div className='skill skill-middle'><img src='/assets/icons/languages/sql.png' style={{height:40}}/></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill opacity-0'><img src='/assets/icons/frameworks/react.png' style={{height:40}}/></div>
+          <div className='skill skill-right'><img src='/assets/icons/blazor.png' style={{height:40}}/></div>
+          <div className='skill opacity-0'></div>
+
+          <div className='skill opacity-0'></div>
+          <div className='skill skill-left'><img src='/assets/icons/devtools/git.png' style={{height:40}}/></div>
+          <div className='skill skill-left'><img src='/assets/icons/googlecloudplatform.jpg' style={{height:40, borderRadius:10}}/></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill skill-middle'><img src='/assets/icons/languages/typescript.png' style={{height:40, borderRadius:20}}/></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill skill-right'><img src='/assets/icons/frameworks/net.png' style={{height:40, borderRadius:20}}/></div>
+          <div className='skill skill-right'><img src='/assets/icons/nodejs.jpg' style={{height:40, borderRadius:10}}/></div>
+          <div className='skill opacity-0'></div>
+
+          <div className='skill opacity-0'></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill skill-left'><img src='/assets/icons/mongoDB.png' style={{height:40, borderRadius:20}}/></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill skill-middle'><img src='/assets/icons/languages/js.png' style={{height:40, borderRadius:20}}/></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill skill-right'><img src='/assets/icons/nextjs.png' style={{height:40}}/></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill opacity-0'></div>
+          <div className='skill opacity-0'></div>
+
+
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill skill-left'><img src='/assets/icons/devtools/mssql-server.png' style={{height:40}}/></div>
+          <div className='skill skill-middle'><img src='/assets/icons/languages/python.png' style={{height:40}}/></div>
+          <div className='skill skill-right'><img src='/assets/icons/frameworks/react.png' style={{height:40}}/></div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill shadow-red'><img src='/assets/icons/jewelry.png' style={{height:40}}/></div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+          <div className='skill opacity-0'>HTML</div>
+
         </div>
           
     </div>

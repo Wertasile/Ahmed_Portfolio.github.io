@@ -3,10 +3,16 @@ import { BackgroundGradientAnimation } from "../components/ui/background-gradien
 import "../styles/globals.css";
 
 import { Roboto } from 'next/font/google'
+import { Josefin_Sans } from "next/font/google";
 import Uppermenu from "../components/Uppermenu";
 import CustomCursor from "../components/Customcursor";
 
 const roboto = Roboto({
+  weight: '400',
+  subsets: ['latin'],
+})
+
+const josefinsans = Josefin_Sans({
   weight: '400',
   subsets: ['latin'],
 })
@@ -20,13 +26,10 @@ export default function RootLayout({ children }) {
   return (
     <>
     <html lang="en" className="!scroll-smooth">
-
-      
-      
         <body suppressContentEditableWarning={true}
-          className={roboto.className}
+          className={josefinsans.className}
         >
-          <CustomCursor/>
+          {/* <CustomCursor/> */}
           <Uppermenu/>
           {children}
         </body>
