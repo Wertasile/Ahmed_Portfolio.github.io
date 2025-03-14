@@ -124,7 +124,7 @@ const About = () => {
       ];
 
   return (
-    <div className="flex flex-col items-center sm:px-20 md:px-32 p-5 gap-10">
+    <div className="flex flex-col items-center sm:px-20 md:px-32 p-5 gap-10 fadeInUp-animation">
         <div className=''>
             <div className="text-5xl font-doto p-5">
             ABOUT
